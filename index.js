@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// This function generates SVG code based on the provided color, shape, and text
 function generateSVG(color, shape, text) {
     let svgCode;
 
@@ -24,6 +25,8 @@ function generateSVG(color, shape, text) {
     return svgCode;
 }
 
+// Prompt the user for input
+// The answers object will contain the user's responses
 inquirer.prompt([
     {
         type: 'input',
@@ -53,4 +56,5 @@ inquirer.prompt([
     }
 });
 
+// Export the generateSVG function
 module.exports = { generateSVG };
