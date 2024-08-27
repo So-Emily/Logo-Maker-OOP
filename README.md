@@ -42,6 +42,8 @@ To run the unit tests using Jest, use the following command:
 ```sh
 npm test
 ```
+## Video Demo
+[Google Drive Link](https://drive.google.com/file/d/1dtiJ24qMw71x1gth0WexpDketniv1J9N/view?usp=sharing)
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
